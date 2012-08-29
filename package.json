@@ -1,0 +1,7 @@
+{ name: "mongo-cafe",
+	description: "A MongoDB shell that speaks CoffeeScript.",
+	dependencies: {
+		"coffee-script": "latest",
+		"mongoskin": "latest"
+	}
+}
