@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+var path = require('path');
+var fs = require('fs');
+var root = path.join(path.dirname(fs.realpathSync(__filename)), '..');
+require('coffee-script');
+
+require(root+ '/index').run(process.stdin, process.stdout);
+
+
