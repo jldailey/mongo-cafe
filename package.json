@@ -1,6 +1,7 @@
-{ name: "mongo-cafe",
-	description: "A MongoDB shell that speaks CoffeeScript.",
-	dependencies: {
+{ "name": "mongo-cafe",
+	"version": "0.0.1",
+	"description": "A MongoDB shell that speaks CoffeeScript.",
+	"dependencies": {
 		"coffee-script": "latest",
 		"mongoskin": "latest",
 		"bling": "latest"
